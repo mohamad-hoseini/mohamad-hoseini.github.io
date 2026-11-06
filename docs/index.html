@@ -48,18 +48,18 @@
     <section id="research" class="section" aria-labelledby="research-title">
       <div class="section-heading">
         <h2 id="research-title">Research overview</h2>
-        <p>Learning from recordings and images of the brain.</p>
+        <p>Modeling neural recording modalities and representations for brain-machine interfaces.</p>
       </div>
       <div class="research-summary">
         <article class="research-theme" aria-labelledby="representations-title">
           <span class="theme-number" aria-hidden="true">01</span>
-          <div><h3 id="representations-title">Learning across subjects and tasks</h3>
-          <p>My ongoing work focuses on foundation models and data scaling for human intracranial recordings, with the goal of learning representations that transfer across people and tasks. I’m building models for neural time series and video data for brain-machine interfaces, building on my work on WiCAT for widefield calcium imaging.</p></div>
+          <div><h3 id="representations-title">Learning from neural data across subjects and tasks</h3>
+          <p>My ongoing work focuses on foundation models and data scaling for human intracranial recordings, with the goal of learning representations that transfer across people and tasks. I’m building models for neural time series and video data for brain-machine interfaces, including multimodal learning from neural recordings and behavioral measurements, building on my work on WiCAT for widefield calcium imaging.</p></div>
         </article>
         <article class="research-theme" aria-labelledby="decoding-title">
           <span class="theme-number" aria-hidden="true">02</span>
-          <div><h3 id="decoding-title">Decoding movement and cognitive states</h3>
-          <p>I’m developing preferential models to learn brain dynamics relevant to behavior, such as movement and cognitive states. My work spans SBIND for neural images and <a href="https://openreview.net/forum?id=vFZhylvjKq">forward-backward filtering and smoothing</a> for neural time series.</p></div>
+          <div><h3 id="decoding-title">Decoding movement and cognitive states in neural data</h3>
+          <p>I’m developing preferential models to learn brain dynamics relevant to behavior, such as movement and cognitive states. My work spans SBIND for neural videos, including functional ultrasound and widefield calcium imaging, and <a href="https://openreview.net/forum?id=vFZhylvjKq">forward-backward filtering and smoothing</a> for neural time series, including spiking activity and local field potentials (LFPs).</p></div>
         </article>
       </div>
     </section>
@@ -67,7 +67,7 @@
     <section id="publications" class="section" aria-labelledby="publications-title">
       <div class="section-heading">
         <h2 id="publications-title">Publications</h2>
-        <p>My work in neural modeling and sensing.</p>
+        <p>My work in neural modeling and health sensor development.</p>
       </div>
 
       <!-- The ongoing work uses a broad description rather than its manuscript title. -->
@@ -87,7 +87,7 @@
             <h4><a href="https://openreview.net/forum?id=vFZhylvjKq">Preferential dynamic modeling with forward-backward smoothing</a></h4>
             <p class="authors">M. Hosseini · coauthor</p>
             <p class="venue">Advances in Neural Information Processing Systems (NeurIPS) · Poster</p>
-            <p class="tldr">Forward-backward smoothing extends PSID and DPAD to decode signals from neural time series using both earlier and later observations.</p>
+            <p class="tldr">We derive theoretical extensions of PSID for filtering and smoothing in linear dynamical models, then apply forward-backward smoothing to DPAD, a nonlinear model for prioritized learning, improving decoding from spiking activity and local field potentials (LFPs).</p>
             <div class="resource-links"><a href="https://openreview.net/forum?id=vFZhylvjKq" aria-label="Read the forward-backward smoothing paper">Paper <span aria-hidden="true">↗</span></a></div>
           </div>
         </li>
@@ -97,7 +97,7 @@
             <h4><a href="https://proceedings.mlr.press/v306/hosseini26a.html">Cross-Subject Modeling for Widefield Calcium Imaging via Atlas-Aligned Spatiotemporal Tokenization</a></h4>
             <p class="authors">Hosseini et al.</p>
             <p class="venue">International Conference on Machine Learning (ICML)</p>
-            <p class="tldr">WiCAT uses atlas-aligned spatiotemporal tokenization to learn representations that transfer across subjects and support zero-shot decoding.</p>
+            <p class="tldr">WiCAT uses atlas-aligned spatiotemporal tokenization to learn representations that transfer across subjects and support zero-shot decoding of continuous behavior from widefield calcium imaging.</p>
             <div class="resource-links"><a href="https://proceedings.mlr.press/v306/hosseini26a.html" aria-label="Read the WiCAT paper">Paper <span aria-hidden="true">↗</span></a><a href="https://github.com/ShanechiLab/WiCAT" aria-label="View WiCAT code on GitHub">Code <span aria-hidden="true">↗</span></a></div>
           </div>
         </li>
@@ -107,7 +107,7 @@
             <h4><a href="https://proceedings.mlr.press/v267/hosseini25a.html">Dynamical Modeling of Behaviorally Relevant Spatiotemporal Patterns in Neural Imaging Data</a></h4>
             <p class="authors">Hosseini et al.</p>
             <p class="venue">International Conference on Machine Learning (ICML)</p>
-            <p class="tldr">SBIND uses convolutional recurrent networks and self-attention to separate neural-image patterns that predict movement from other activity.</p>
+            <p class="tldr">SBIND uses convolutional recurrent networks and self-attention to learn behaviorally relevant dynamics from neural videos, including functional ultrasound and widefield calcium imaging, separating patterns that predict movement from other activity.</p>
             <div class="resource-links"><a href="https://proceedings.mlr.press/v267/hosseini25a.html" aria-label="Read the SBIND paper">Paper <span aria-hidden="true">↗</span></a><a href="https://github.com/ShanechiLab/SBIND" aria-label="View SBIND code on GitHub">Code <span aria-hidden="true">↗</span></a></div>
           </div>
         </li>
@@ -121,7 +121,7 @@
             <h4><a href="https://arxiv.org/abs/2608.05697">A Low-Power Wearable Respiratory Sensor for Non-Invasive Stress Monitoring</a></h4>
             <p class="authors">Hosseini et al.</p>
             <p class="venue">Preprint · arXiv:2608.05697</p>
-            <p class="tldr">A low-power wearable respiratory sensor measures breathing, with a classification pipeline to distinguish stress from relaxation.</p>
+            <p class="tldr">We developed the hardware and software for a low-power wearable respiratory sensor and conducted experiments to distinguish stress or arousal from relaxation using respiratory signals.</p>
             <div class="resource-links"><a href="https://arxiv.org/abs/2608.05697" aria-label="Read the wearable respiratory sensor preprint">Paper <span aria-hidden="true">↗</span></a></div>
           </div>
         </li>
